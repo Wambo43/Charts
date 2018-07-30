@@ -1,0 +1,129 @@
+﻿
+element.style {
+    cursor: none;
+    z-index:10;
+}
+
+.ui-datepicker{ z-index: 9999 !important;}
+/* /Style der Items von der TimelineAktivity/ */
+.vis-item.BreakRest {
+    margin-top: 3px;
+    background-color: rgb(177, 179, 180);
+    border: none;
+    height: 6px;
+    color: white;
+    border-radius: 0; 
+    z-index:1;
+    /*font-family: monospace;
+    border-color: darkgray;
+    box-shadow: 0 0 10px gray;*/
+}
+.vis-item.Availability {
+    margin-top: 3px;
+    background-color: rgb(255, 229, 0);
+    border: none;
+    height: 12px;
+    color: white;
+    border-radius: 0; 
+    z-index:1;
+    /*font-family: monospace;
+    border-color: darkolivegreen;
+    box-shadow: 0 0 10px gray;*/
+}
+    .vis-item.Work {
+    margin-top: 3px;
+    background-color: rgb(166, 78, 148);
+    border: none;
+    height: 18px;
+    color: white;
+    border-radius: 0; 
+    z-index:1;
+    /*font-family: monospace;
+    border-color: #ff4500;
+    box-shadow: 0 0 10px gray;*/
+}
+.vis-item.Driving {
+    margin-top: 3px;
+    background-color: rgb(242, 148, 0);
+    border: none;
+    height: 24px;
+    color: white;
+    border-radius: 0; 
+    z-index:1;
+    /*font-family: monospace;
+    border-color: orangered;
+    box-shadow: 0 0 10px gray;*/
+}
+.vis-item.unknown {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 0; 
+    height: 24px;
+    border: none;
+    z-index:1;
+}
+.vis-item.Unknown  {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 0; 
+    height: 24px;
+    border: none;
+    z-index:1;
+}
+
+.vis-item.ViolenceTransgression {
+    background-color: rgb(255,255,255);
+    margin-top: -2px;
+    border-radius: 0; 
+    height: 3px;
+    border: none;
+    z-index:3;
+}
+
+.vis-item.ManualGrudge{
+    background-color: #0000EE;
+    margin-top: -17px;
+    border-radius: 0; 
+    height: 3px;
+    border: none;
+    z-index:3;
+}
+/*
+*   Violation 
+*   finde ein besseren Klassennamen dafür
+*/
+/*/Vioalation_AZ/*/
+.vis-item.VIOLATION_AZ {
+    background-color: #000000;
+    margin-top: -11px;
+    border-radius: 0; 
+    height: 3px;
+    border: none;
+    z-index:3;
+}
+/*/Violation_PZF/*/
+.vis-item.VIOLATION_PZF {
+    background-color: #000000;
+    margin-top: -17px;
+    border-radius: 0; 
+    height: 3px;
+    border: none;
+    z-index:3;
+}
+/*/Vioalation_TRZ_.../*/
+/*/Vioalation_AZ_10H/*/
+.vis-item.VIOLATION_TRZ {
+    background-color: #000000;
+    margin-top: 2px;
+    border-radius: 0; 
+    height: 3px;
+    border: none;
+    z-index:3;
+}
+
+.vis-item.Stoerung {
+    background-color: #ff0000;
+    margin-top: -24px;
+    border-radius: 0; 
+    height: 5px;
+    border: none;
+    z-index:3;
+}

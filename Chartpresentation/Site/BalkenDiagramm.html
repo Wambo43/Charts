@@ -1,0 +1,48 @@
+<html>
+<head>
+<link href="Content/Site.css" rel="stylesheet" />
+<link href="Content/jquery-ui.css" rel="stylesheet" />
+<script src="Scripts/jquery.js" type="text/javascript"></script>
+<script src="Scripts/jquery-ui.js" type="text/javascript"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.1/moment-with-locales.min.js"></script>
+<script src="Scripts/Vis/dist/vis.js" type="text/javascript"></script>
+<link href="Scripts/Vis/dist/vis.css" rel="stylesheet" />
+
+<script src="Scripts/Self/Chart.js" type="text/javascript"></script>
+<title>Balkendiagramm</title>
+</head>
+<style>
+.visualization {
+    padding-left: 2.5%;
+      width: 95%;
+}
+</style>
+<body>
+  
+<a href = "KurvenDiagramm.html" target="main"> <button>prev</button></a>
+<a href = "VorNachteile.html" target="main"> <button>next</button></a>
+ <div style ="margin-left:2%;">
+    <h1>Blakendiagramm</h1>
+    <p> VIS kann Balken in einem Diagramm und diese unterschiedlich Anzeigen lassen. Zudem l&auml;sst sich die Zeitachse (x-Achse) von den Diagrammen frei w&auml;hlen.</p>
+    <label for="dropdownID">W&auml;hle unterschiedliche Darstellung der Balken:</label> 
+        <select id="dropdownID" style="
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px">
+    <option value="overlap" selected="selected">&Uuml;berlappen</option>
+    <option value="sideBySide" >Nebeneinander</option>
+    <option value="stack">Aufeinander</option>
+    </select>
+    <p>
+      <label for="axis-orientation">Zeitachsen Ausrichtung :</label>
+      <select id="axis-orientation">
+        <option value="both">beide</option>
+        <option value="bottom" selected>unten</option>
+        <option value="none">keine</option>
+        <option value="top">open</option>
+      </select>
+    </p>
+    </div>
+    <div id="Diagramm" class="visualization"></div>
+</body>
+</html>

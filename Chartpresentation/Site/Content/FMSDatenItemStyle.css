@@ -1,0 +1,106 @@
+﻿
+
+/* Style von den Items der TimelineDriver*/
+.vis-item.Driver1 {
+    background-color: #81F781 ;
+    height: 30px; 
+    border-radius: 0; 
+    border: none;
+}
+.vis-item.Driver2 {
+    background-color: #F79F81;
+    height: 30px;
+    border-radius: 0; 
+    border: none;
+}
+.vis-item.Driver3 {
+    background-color: #DCF372;
+    height: 30px;
+    border-radius: 0; 
+    border: none;
+}
+.vis-item.Driver4 {
+    background-color:   #abc;
+    height: 30px;
+    border-radius: 0; 
+    border: none;
+}
+.vis-item.Driver5 {
+    background-color:  #ff7f50;
+    border-radius: 0; 
+    height: 30px;
+    border: none;
+}
+.vis-item.Driver6 {
+    background-color: #BA5921;
+    border-radius: 0; 
+    height: 30px;
+    border: none;
+}
+
+
+#DivCheckDiagramm  td {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Style von den Items des Diagrammes ( 2D Graphe" )*/
+.Speed-style {
+    /*Farbe von der Fülle*/
+    fill: orangered;
+    fill-opacity:0;
+    stroke-width:2px;
+    /*Farbe der Linie*/
+    stroke: red;
+}
+.Altitude-style {
+    /*Farbe von der Fülle*/
+    fill: #EE7621;
+    fill-opacity: 0;
+    stroke-width: 2px;
+    /*Farbe der Linie*/
+    stroke: #8B795E;
+}
+.FuelLevel-style{
+    /*Farbe von der Fülle*/
+    fill: orangered;
+    fill-opacity:0;
+    stroke-width:2px;
+    /*Farbe der Linie*/
+    stroke: purple;
+}
+.BrakeSwitch-style {
+    /*Farbe von der Fülle*/
+    fill: orangered;
+    fill-opacity:0;
+    stroke-width:2px;
+    /*Farbe der Linie*/
+    stroke: royalblue;
+}
+.EngineSpeed-style {
+    /*Farbe von der Fülle*/
+    fill: orangered;
+    fill-opacity:0;
+    stroke-width:2px;
+    /*Farbe der Linie*/
+    stroke: darkorange;
+}
+.AcceleratorPedalPosition-style {
+    /*Farbe von der Fülle*/
+    fill: orangered;
+    fill-opacity:0;
+    stroke-width:2px;
+    /*Farbe der Linie*/
+    stroke: darkred;
+}
+.Altitude-style{
+    /*Farbe von der Fülle*/
+    fill: orangered;
+    fill-opacity:0;
+    stroke-width:1px;
+    /*Farbe der Linie*/
+    stroke: gray;
+}

@@ -1,0 +1,36 @@
+<html>
+<head>
+<link href="Content/Site.css" rel="stylesheet" />
+<link href="Content/jquery-ui.css" rel="stylesheet" />
+<script src="Scripts/jquery.js" type="text/javascript"></script>
+<script src="Scripts/jquery-ui.js" type="text/javascript"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.1/moment-with-locales.min.js"></script>
+<script src="Scripts/Vis/dist/vis.js" type="text/javascript"></script>
+<link href="Scripts/Vis/dist/vis.css" rel="stylesheet" />
+
+<script src="Scripts/Self/Chart1.js"></script>
+<link href="Content/Chart1.css" rel="stylesheet" />
+<title>Kurvendiagramm</title>
+</head>
+<style>
+.visualization {
+	padding-left: 2.5%;
+	width: 95%;
+}
+</style>
+<body>
+
+      <a href = "WasIstVIS.html"> <button>prev</button></a>
+      <a href = "BalkenDiagramm.html"> <button>next</button></a>
+    <h2> Graph2d (Kurvendiagramm)</h2>
+    <p> Kurven k&ouml;nnen von VIS in unterschiedlichen Formaten dargestellt werden. Die Kurven haben jeweilse einen eigenen Wertebereich (die linke und die rechte y-Achse), <br />
+          die Legenden zeigen welche Kruve zu welchen Wertebereich geh&ouml;rt. Wenn eine der Achsen nicht benutzt wird, wird die Legende nicht gezeigt.</p>
+    <div id="Diagramm" class="visualization" style="margin-bottom:250px"></div>
+
+
+        <h2> Interpolieren der Kurven</h2>
+    <p>VIS bietet einen vier M&ouml;glichkeiten zur Interpolation an. Das Interpolationsverfahren von Catmull-Rom-Spline-Interpolation wird dabei benutzt. Nach zu lesen unter <a href="https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline" target="_blank">Wikipedia</a> oder auf dem <a href="http://www.cemyuksel.com/research/catmullrom_param/catmullrom.pdf" target="_blank">Paper</a></p> 
+    <div id="Diagramm1" class="visualization"></div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿
+.VoNaTable table {
+    border: 1px !important;
+        border-spacing: 2px;
+    border-color: grey;
+    text-align: left;
+    display: table-cell;
+    vertical-align: top;
+}
+.VoNaTable table, td, th {
+    border: 1px solid gray;
+}
+
+.VoNaTable table, th {
+    background-color: green;
+    color: white;
+}
+.VoNaTable td {
+    padding: 0.25em 2em 0.25em 2em;
+}
+.VoNaTableHead {
+    background-color: #E8E8E8;
+}
